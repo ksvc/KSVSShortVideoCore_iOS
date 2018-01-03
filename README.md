@@ -46,7 +46,7 @@ Core版：SDK不含UI，开放上传接口
 github 地址：https://github.com/ksvc/KSVSShortVideoCore_iOS.git
 ```
 
-1. 通过cocoapods依赖其他相关项目
+2. 通过cocoapods依赖其他相关项目
 
 ```
 pod 'KSYMediaEditorKit', '~> 1.6.1'
@@ -60,7 +60,7 @@ pod 'AFNetworking', '~> 3.0'
 pod 'Toast', '~> 4.0.0'
 ```
 
-1. 具体的接口使用，请在WIKI查看：[wiki](https://github.com/ksvc/KSVSShortVideoCore_iOS/wiki)
+3. 具体的接口使用，请在WIKI查看：[wiki](https://github.com/ksvc/KSVSShortVideoCore_iOS/wiki)
 
 ## 5 反馈与建议
 ### 5.1 反馈模版
