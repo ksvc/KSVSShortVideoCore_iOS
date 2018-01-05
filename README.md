@@ -18,7 +18,7 @@ Core版：SDK不含UI，开放上传接口
 ![此处输入图片的描述][3]
 ### 2.1 Core版架构流程描述
 * APP 集成该方案SDK时，需要先鉴权才能使用短视频解决方案后续功能
-* Core版本方案方案包含上传上传图片（头像、封面）、视频功能，上传至金山云端
+* Core版本解决方案包含上传上传图片（头像、封面）、视频功能，上传至金山云端
 * 录制、编辑、美颜等功能由金山云短视频SDK（KSYMediaEditorKit）提供，使用时需要自己去调用KSYMediaEditorKit相应的接口、配置相关属性，KSYMediaEditorKit与解决方案SDK是两个独立的部分，而鉴权操作统一由解决方案SDK处理即可
 * 播放功能由KSYMediaPlayer提供，使用时需要自己去调用KSYMediaPlayer相应的接口、配置相关属性
 
@@ -45,22 +45,19 @@ Core版：SDK不含UI，开放上传接口
 ```
 github 地址：https://github.com/ksvc/KSVSShortVideoCore_iOS.git
 ```
-
-1. 通过cocoapods依赖其他相关项目
+通过cocoapods依赖其他相关项目
 
 ```
 pod 'KSYMediaEditorKit', '~> 1.6.1'
-pod 'Bugly'
-pod 'Masonry'
-pod 'MBProgressHUD'
-pod 'YYKit'
 pod 'UICKeyChainStore'
 pod 'FMDB'
 pod 'AFNetworking', '~> 3.0'
-pod 'Toast', '~> 4.0.0'
-```
+```    
+    
+2. 直接使用cocoapods引用（**推荐**）    
+pod 'KSVSShortVideoCore_iOS', '~>1.1.0'     
 
-1. 具体的接口使用，请在WIKI查看：[wiki](https://github.com/ksvc/KSVSShortVideoCore_iOS/wiki)
+3. 具体的接口使用，请在[WIKI](https://github.com/ksvc/KSVSShortVideoCore_iOS/wiki) 查看或参考Demo
 
 ## 5 反馈与建议
 ### 5.1 反馈模版
@@ -82,7 +79,7 @@ pod 'Toast', '~> 4.0.0'
 * 邮箱: zengfanping@kingsoft.com
 * QQ讨论群：
 * 574179720 视频云技术交流群
-* 620036233 视频云Android技术交流
+* 621137661 视频云iOS技术交流
 * 以上两个加一个QQ群即可
 * Issues: https://github.com/ksvc/KSVSShortVideoCore_iOS/issues
 
