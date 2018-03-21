@@ -4,6 +4,7 @@
 1. KSYMediaEditorKit_iOS短视频SDK，只包含短视频相关功能。如果单独使用这个SDK，需要自己实现APP展示效果、上传、播放等。在使用时，必须通过短视频SDK和上传的鉴权流程
 2. KSVSShortVideoCore短视频解决方案核心SDK，包含短视频SDK所有接口，并且还增加上传、智能推荐(暂时未开放)。如果使用这个SDK，需要自己实现APP展示效果和播放等。在使用时，只需要完成解决方案的鉴权过程，不在需要进行其他的鉴权过程
 3. KSVSShortVideoKit_iOS 短视频解决方案，包含短视频SDK一部分功能，支持视频上传、播放、智能推荐，并且实现了一套直接可用的展示效果。如果使用这个SDK，只需要在完成鉴权的前提下开启相应的界面，用户可以快速的进行集成。
+如果您使用过短视频SDK “KSYMediaEditorKit_iOS”，需要升级为KSVSShortVideoCore_iOS，请跳转到[这里](https://github.com/ksvc/KSVSShortVideoCore_iOS/wiki/changShortVideoSDK)
 ## 1 简述
 短视频解决方案目前有两个版本：[Kit版][2]，Core版（自定义UI），Kit版依赖Core版的功能；
 ### 二者共同特性
