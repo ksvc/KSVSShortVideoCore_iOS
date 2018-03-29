@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 spec.name         = "KSVSShortVideoCore_iOS"
 spec.summary      = "金山云iOS平台短视频解决方案"
-spec.version      = "1.1.0"
+spec.version      = "1.2.0"
 spec.license      = "Copyright 2016 kingsoft Ltd. All rights reserved"
 spec.source       = { :git => "https://github.com/ksvc/KSVSShortVideoCore_iOS.git", :tag => "v#{spec.version}"}
 spec.homepage     = "https://github.com/ksvc/KSVSShortVideoCore_iOS"
