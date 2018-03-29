@@ -5,7 +5,8 @@ target 'KSVSSdkApiDemo' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
 
-    pod 'KSYMediaEditorKit', '~> 1.6.1'
+    pod 'KSYMediaEditorKit', '2.2.3'
+    pod 'Ks3SDK','1.7.2'
     pod 'Bugly'
     pod 'Masonry'
     pod 'MBProgressHUD'

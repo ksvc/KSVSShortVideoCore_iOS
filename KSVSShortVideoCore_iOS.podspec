@@ -10,7 +10,9 @@ spec.platform     = :ios, '8.0'
 
 spec.vendored_frameworks = "KSVSSdkApiDemo/KSVSSdkCore.framework"
 
-spec.dependency 'KSYMediaEditorKit'
+spec.dependency 'KSYMediaEditorKit','2.2.3'
+spec.dependency 'Ks3SDK','1.7.2'
+spec.dependency 'FMDB'
 spec.dependency 'UICKeyChainStore'
 spec.dependency 'YYKit'
 spec.dependency 'AFNetworking'
